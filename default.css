@@ -17,6 +17,17 @@ body {
 	font-size: 20px;
 	margin: 0;
 }
+section#about, section#portfolio, section#blog {
+    background-color: #f71e1e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.image-portfolio {
+	border-radius: 10%;
+	border: 2px dashed black;
+}
 p,cite,code,ul {
 	margin-bottom: 1.2em;
 }
@@ -81,15 +92,15 @@ cite {
 
 /* navigation */
 .navigation {
-	height: 36px;
+	height: 20px;
 	margin: 0 auto;
-	width: 632px;
+	width: 900px;
 }
 .navigation a {
 	background: url(img/navigation.jpg) no-repeat;
 	color: #FFF;
 	float: left;
-	font: bold 1.2em serif;
+	font: bold 1.1em serif;
 	height: 31px; 
 	letter-spacing: 1px;
 	line-height: 31px;
@@ -121,4 +132,12 @@ cite {
 }
 .footer a {
 	color: #664;
+}
+.row img {
+	width: 100px;
+	height: 100px;
+	
+}
+.title h1 {
+	color: #f71e1e;
 }
